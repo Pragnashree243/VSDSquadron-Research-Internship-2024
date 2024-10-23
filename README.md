@@ -27,6 +27,9 @@ Gedit editor
 
 5:Search for main usin the commands: "riscv64-unknown-elf-objdump -d sum.o | less" and then type out "/main"
 
+![image](https://github.com/user-attachments/assets/4e0c5aec-e313-4f9a-818b-e40158f97dc8)
+
+
 
 
 
