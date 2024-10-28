@@ -54,14 +54,17 @@ The program is based on the RISC-V architecture and uses open-source tools to te
 # STEPS:
 1.) The C Code to find the sum of n numbers is the same code as used in Task 1.
 
+![WhatsApp Image 2024-10-28 at 19 50 53_f950d1c7](https://github.com/user-attachments/assets/343cb4bc-f86e-468d-8e28-3917231c8d9b)
 
 
 2.) Output using the RISC-V simulator.
 
+![WhatsApp Image 2024-10-28 at 19 50 53_c40fed3f](https://github.com/user-attachments/assets/497c92c2-59ca-49eb-84c6-b91cd79c2517)
 
 
 3.) Confirming the same using Spike 
 
+![WhatsApp Image 2024-10-28 at 19 50 53_1744290e](https://github.com/user-attachments/assets/0c0261e0-a81a-470e-be3b-b8fdf751e66d)
 
 
 This confirms that all the three methods give the same output.
