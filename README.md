@@ -52,22 +52,22 @@ The program is based on the RISC-V architecture and uses open-source tools to te
 - Spike is a free, open-source C++ simulator for the RISC-V ISA that models a RISC-V core and cache system. It can be used to run programs and a Linux kernel, and can be a starting point for running software on a RISC-V target.
 
 # STEPS:
-1.) The C Code to find the sum of n numbers is the same code as used in Task 1.
+1.) The C Code to find the sum of n numbers is the same code as used in Task 1. Following the instructions as shown below in the snapshot, we can observe the same output when 'gcc' command or 'spike' command is used.
 
-![WhatsApp Image 2024-10-28 at 19 50 53_f950d1c7](https://github.com/user-attachments/assets/343cb4bc-f86e-468d-8e28-3917231c8d9b)
+![Screenshot 2024-10-29 122735](https://github.com/user-attachments/assets/8d75a4b5-b431-4165-ab6e-ce52164f0501)
 
-
-2.) Output using the RISC-V simulator.
-
-![WhatsApp Image 2024-10-28 at 19 50 53_c40fed3f](https://github.com/user-attachments/assets/497c92c2-59ca-49eb-84c6-b91cd79c2517)
+![Screenshot 2024-10-29 133317](https://github.com/user-attachments/assets/cee810d3-e4da-409d-90e6-bacb17bf0d8b)
 
 
-3.) Confirming the same using Spike 
+2.) Enter the below given instructions and debug using SPIKE:
 
-![WhatsApp Image 2024-10-28 at 19 50 53_1744290e](https://github.com/user-attachments/assets/0c0261e0-a81a-470e-be3b-b8fdf751e66d)
+- riscv64-unknown-elf-objdump -d sum1ton.o | less
+  ( here -d is given for Debug)
 
+![Screenshot 2024-10-29 133549](https://github.com/user-attachments/assets/6cc23c7b-2f7b-473f-ae8d-f40b7e7c3119)
 
-This confirms that all the three methods give the same output.
+![WhatsApp Image 2024-10-29 at 14 00 56_33507c4b](https://github.com/user-attachments/assets/d9d4f619-e706-4705-9bf1-3dc4ee1dbd93)
+
 
 # B. Write a simple C program for any simple application and compile with RISC-V GCC/SPIKE.
 
