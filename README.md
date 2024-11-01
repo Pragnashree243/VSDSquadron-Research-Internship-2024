@@ -78,6 +78,9 @@ The program is based on the RISC-V architecture and uses open-source tools to te
 
 The RISC-V instruction set architecture (ISA) defines several types of instructions, each with a specific format. Below is a summary of the main instruction types:
 
+![image](https://github.com/user-attachments/assets/e9b6a795-6e82-4ea6-9feb-129a8dc1bc9b)
+
+
 1.) R-Type (Register-Register):
 
 - Purpose: Used for operations that involve two source registers and one destination register.
