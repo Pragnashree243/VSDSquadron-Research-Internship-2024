@@ -262,6 +262,66 @@ Binary Encoding: 000000000000 00000 000 00101 0010011
 - Instruction Format: R-type
 - Binary Encoding: 0000000 00011 00010 100 00001 0110011
 - 32-bit Instruction Code: 0x003100b3
+
+# TASK 4:-
+
+# By making use of RISC-V Core: Verilog Netlist and Testbench, perform an experiment of Functional Simulation and observe the waveforms
+
+NOTE: Since the designing of RISCV Architecture and writing it's testbench is not the part of this Research Internship, so we will use the Verilog Code and Testbench of RISCV that has already been designed. The reference GitHub repository is : iiitb_rv32i          link 
+
+# Steps to perform functional simulation of RISCV:
+
+# GTKWAVE Generation Process:
+
+Follow the steps given below to generate the waveform using Verilog code and GTKWAVE.
+
+# 1.) Clone the Repository.
+
+Clone the RISC-V Verilog repository using the 'git clone' command.
+
+git clone https://github.com/vinayrayapati/rv321        link
+
+# 2.) Navigate to the Cloned Directory.
+
+Change the directory to the cloned repository.
+
+cd rv321
+
+# 3.) Compile the Verilog Code and Testbench.
+
+Run the following iverilog command to compile the Verilog code and testbench.
+
+'iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v'
+
+# 4.) Simulate the Verilog Code.
+
+After compiling, simulate the Verilog code by running the compiled file.
+
+'./iiitb_rv321'
+
+
+
+# 5.) Open the Waveform in GTKWAVE.
+
+Once the simulation generates the .vcd (Value Change Dump) file, you can visualize the waveform in GTKWAVE.
+
+'gtkwave iiitb_rv321.vcd'
+
+It will open the new window of GTKWAVE.
+
+
+
+Tap the 'iiitb_rv32i_tb' in the 'SST' section.
+
+
+
+Now, drag the command in the same way presented under 'time' section.
+
+
+
+Select the instructions from EX_MEM_IR[31:0] to present the instructions used in Task 3 and Analysing the Output Waveform of various instructions that we have covered in TASK-3.
+
+
   
 
 
