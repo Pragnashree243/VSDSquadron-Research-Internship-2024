@@ -321,6 +321,12 @@ Now, drag the command in the same way presented under 'time' section.
 
 Select the instructions from EX_MEM_IR[31:0] to present the instructions used in Task 3 and Analysing the Output Waveform of various instructions that we have covered in TASK-3.
 
+# Instruction 1: ADD r1, r2, r3
+
+
+
+
+
 
   
 
