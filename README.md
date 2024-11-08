@@ -299,6 +299,7 @@ After compiling, simulate the Verilog code by running the compiled file.
 
 './iiitb_rv321'
 
+![image](https://github.com/user-attachments/assets/de532545-1035-4bf0-8d33-11eb84ab2bd1)
 
 
 # 5.) Open the Waveform in GTKWAVE.
@@ -309,23 +310,46 @@ Once the simulation generates the .vcd (Value Change Dump) file, you can visuali
 
 It will open the new window of GTKWAVE.
 
+![image](https://github.com/user-attachments/assets/3dfff2e2-e29e-4ac7-a74d-99791048a8e7)
 
 
 Tap the 'iiitb_rv32i_tb' in the 'SST' section.
 
+![image](https://github.com/user-attachments/assets/3cbd47e0-d7c9-4465-8bc2-f45b032b6eb9)
 
 
 Now, drag the command in the same way presented under 'time' section.
 
+![image](https://github.com/user-attachments/assets/c3933625-84aa-43fe-aae0-551c5036cd66)
 
 
 Select the instructions from EX_MEM_IR[31:0] to present the instructions used in Task 3 and Analysing the Output Waveform of various instructions that we have covered in TASK-3.
 
-# Instruction 1: ADD r1, r2, r3
+# Instruction 1 : ADD r1, r2, r3
 
 
 
+# Instruction 2 : SUB r3, r1, r2 
 
+
+
+# Instruction 3 : AND r2, r1, r3
+
+
+
+# Instruction 4 : OR r8, r2, r5 
+
+
+
+# Instruction 5 : XOR r8, r1, r4 
+
+
+
+# Instruction 6 : SLL r15, r11, r2 
+
+
+
+# Instruction 7 : SLT r10, r2, r4 
 
 
   
