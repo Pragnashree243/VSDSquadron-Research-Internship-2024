@@ -366,6 +366,8 @@ Select the instructions from EX_MEM_IR[31:0] to present the instructions used in
 ![32 bits instruction](https://github.com/user-attachments/assets/edc69fdb-279c-430b-84a8-8279564fb6e4)
 
   
+To conclude : The output waveform for the list of instructions are obtained in GTKWAVE.
+
 
 
 
