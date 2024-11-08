@@ -331,25 +331,29 @@ Now, drag the command in the same way presented under 'time' section.
 
 Select the instructions from EX_MEM_IR[31:0] to present the instructions used in Task 3 and Analysing the Output Waveform of various instructions that we have covered in TASK-3.
 
-# Instruction 1 : ADD r1, r2, r3
+# Instruction 1 : ADD r1, r1, r2
 
 ![values stored in two different registe](https://github.com/user-attachments/assets/bc020bf1-4840-4837-9d89-38c06cec98bc)
 
 
 # Instruction 2 : SUB r3, r1, r2 
 
+![Values stored in two different register](https://github.com/user-attachments/assets/1ae337fd-7d59-45a5-b357-3289e1235056)
 
 
 # Instruction 3 : AND r2, r1, r3
 
+![Untitled design](https://github.com/user-attachments/assets/0d56993f-a4b1-49dc-84a8-72ac4f1ea19c)
 
 
 # Instruction 4 : OR r8, r2, r5 
 
+![Untitled design (1)](https://github.com/user-attachments/assets/32ef522d-dfd1-4dca-b265-659528c0fd69)
 
 
 # Instruction 5 : XOR r8, r1, r4 
 
+![Your paragraph text](https://github.com/user-attachments/assets/5fb26807-d7c6-4d95-bbd6-855fbd14c0e3)
 
 
 # Instruction 6 : SLL r15, r11, r2 
@@ -358,6 +362,7 @@ Select the instructions from EX_MEM_IR[31:0] to present the instructions used in
 
 # Instruction 7 : SLT r10, r2, r4 
 
+![32 bits instruction](https://github.com/user-attachments/assets/edc69fdb-279c-430b-84a8-8279564fb6e4)
 
   
 
