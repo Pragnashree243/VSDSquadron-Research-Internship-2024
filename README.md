@@ -333,6 +333,7 @@ Select the instructions from EX_MEM_IR[31:0] to present the instructions used in
 
 # Instruction 1 : ADD r1, r2, r3
 
+![values stored in two different registe](https://github.com/user-attachments/assets/bc020bf1-4840-4837-9d89-38c06cec98bc)
 
 
 # Instruction 2 : SUB r3, r1, r2 
