@@ -358,6 +358,7 @@ Select the instructions from EX_MEM_IR[31:0] to present the instructions used in
 
 # Instruction 6 : SLL r15, r11, r2 
 
+![Your paragraph text (1)](https://github.com/user-attachments/assets/f0aeb7ce-a088-43dd-a54c-5e4887a4af6c)
 
 
 # Instruction 7 : SLT r10, r2, r4 
