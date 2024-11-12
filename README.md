@@ -379,10 +379,15 @@ The Smart Door project presents an innovative integration of infrared (IR) sensi
 # Components Required to build Smart Door :
 
 1.) CH32V003X
+
 2.) IR sensor
+
 3.) Servo Motors (SG90)
+
 4.) Power Supply
+
 5.) Bread Board
+
 6.) Jumper Wires
 
 The CH32V003 RISC-V processor, employed in the smart door project, operates at voltages between 1.8V to 3.6V, featuring GPIO pins for interfacing with external devices and supporting communication protocols like SPI, I2C, and UART. The IR sensor utilized in the system typically operates at 3.3V or 5V, detecting infrared radiation emitted or reflected by objects within its range and converting it into electrical signals. The servo motor, integral to the project, operates within a voltage range of 4.8V to 6V and responds to PWM signals for position control, drawing current proportional to load and torque requirements. These electrical properties ensure compatibility and effective integration of components, facilitating the automated operation of the smart door system.
@@ -402,7 +407,8 @@ Furthermore, the servo motor is connected to the CH32V003 processor as follows: 
 ![Screenshot 2024-11-12 084757](https://github.com/user-attachments/assets/79ba764e-2843-4862-abf0-d11230e81084)
 
 
-![Screenshot 2024-11-12 085801](https://github.com/user-attachments/assets/8d76cb13-277b-4ca0-a025-3ec164098311)
+![Screenshot 2024-11-12 090001](https://github.com/user-attachments/assets/e8789d7a-f966-4a43-83c4-8a77b6359ae6)
+
 
 
 
