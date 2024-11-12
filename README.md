@@ -368,10 +368,41 @@ Select the instructions from EX_MEM_IR[31:0] to present the instructions used in
   
 To conclude : The output waveform for the list of instructions are obtained in GTKWAVE.
 
+# TASK 5 :-
+
+# Smart Door Using IR Sensor and Servo Motor Using VSDSquadron Mini RISC-V Development Board 
+
+# Project Overview :
+
+The Smart Door project presents an innovative integration of infrared (IR) sensing technology with the CH32V003 RISC-V processor to create an automated door system. This system operates by detecting the presence of objects within its range using an IR sensor, which then sends signals to the CH32V003 RISC-V processor. Upon receiving these signals, the processor activates a servo motor to rotate and subsequently open or close the door, providing seamless and efficient access control. By combining these technologies, the project aims to offer users a convenient, secure, and automated solution for door operation, eliminating the need for manual intervention.
+
+# Components Required to build Smart Door :
+
+1.) CH32V003X
+2.) IR sensor
+3.) Servo Motors (SG90)
+4.) Power Supply
+5.) Bread Board
+6.) Jumper Wires
+
+The CH32V003 RISC-V processor, employed in the smart door project, operates at voltages between 1.8V to 3.6V, featuring GPIO pins for interfacing with external devices and supporting communication protocols like SPI, I2C, and UART. The IR sensor utilized in the system typically operates at 3.3V or 5V, detecting infrared radiation emitted or reflected by objects within its range and converting it into electrical signals. The servo motor, integral to the project, operates within a voltage range of 4.8V to 6V and responds to PWM signals for position control, drawing current proportional to load and torque requirements. These electrical properties ensure compatibility and effective integration of components, facilitating the automated operation of the smart door system.
+
+# Circuit Connection for Smart Door :
+
+In the Smart Door project, the IR sensor is connected to the CH32V003 RISC-V processor as follows: The output pin of the IR sensor, which provides digital signals indicating object detection, is connected to the D3 pin of the CH32V003 processor. Additionally, the VCC (power) pin of the IR sensor is connected to the appropriate voltage supply pin (VCC) on the CH32V003, while the GND (ground) pin of the sensor is connected to the ground pin (GND) of the processor. This setup ensures that the CH32V003 can receive and process signals from the IR sensor, enabling it to detect objects in the vicinity.
+
+Furthermore, the servo motor is connected to the CH32V003 processor as follows: The control pin (usually marked as PWM) of the servo motor, which receives PWM signals to control its position, is connected to the D2 pin of the CH32V003 processor. Additionally, the VCC pin of the servo motor is connected to the appropriate voltage supply pin (VCC) on the processor, while the GND pin of the motor is connected to the ground pin (GND) of the processor. This setup allows the CH32V003 processor to send PWM signals to the servo motor via the D2 pin, thereby controlling its rotation and enabling the automated opening and closing of the door.
+
+# Pinout Diagram for Smart Door :
 
 
 
+# Table for Pin connection :
 
+![Screenshot 2024-11-12 084757](https://github.com/user-attachments/assets/79ba764e-2843-4862-abf0-d11230e81084)
+
+
+![Screenshot 2024-11-12 085801](https://github.com/user-attachments/assets/8d76cb13-277b-4ca0-a025-3ec164098311)
 
 
 
