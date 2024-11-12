@@ -400,6 +400,7 @@ Furthermore, the servo motor is connected to the CH32V003 processor as follows: 
 
 # Pinout Diagram for Smart Door :
 
+![Screenshot 2024-11-12 101302](https://github.com/user-attachments/assets/40446eaf-3dba-4b7e-b4fe-ae9b3e5e4b8c)
 
 
 # Table for Pin connection :
