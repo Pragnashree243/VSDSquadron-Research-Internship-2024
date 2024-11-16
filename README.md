@@ -396,20 +396,20 @@ With the ability to be controlled directly from a smartphone via Bluetooth, this
 
 THe VSD Squadron Mini RISC-V board is powered by CH32V003F4U6 chip with 32-bit RISC-V core based on RV32EC instruction set, optimized for high-performance computing with support for 2-level interrupt nesting and supports 24MHz system main frequency in the product function. Bluetooth HC-05 Module (Pins PD6, PD7, PC7, GND, 3.3V) enables wireless communication between the system and the user’s smartphone for remote control and the Bluetooth module’s State pin indicates connection status. Servo Motor (Pin PC6) acts as the locking mechanism, which is controlled by the microcontroller. The Onboard LED displays the system status, indicating the locked or unlocked states. The jumper wires are used to connect the different parts of a circuit. These wires help in easily linking the VSD Squadron Mini RISC-V board, Bluetooth HC-05 Module and the Servo Motor.
 
-# Circuit Connection for Smart Door :
+# Circuit Connection for Bluetooth Automated Smart Access :
 
-In the Smart Door project, the IR sensor is connected to the CH32V003 RISC-V processor as follows: The output pin of the IR sensor, which provides digital signals indicating object detection, is connected to the D3 pin of the CH32V003 processor. Additionally, the VCC (power) pin of the IR sensor is connected to the appropriate voltage supply pin (VCC) on the CH32V003, while the GND (ground) pin of the sensor is connected to the ground pin (GND) of the processor. This setup ensures that the CH32V003 can receive and process signals from the IR sensor, enabling it to detect objects in the vicinity.
-
-Furthermore, the servo motor is connected to the CH32V003 processor as follows: The control pin (usually marked as PWM) of the servo motor, which receives PWM signals to control its position, is connected to the D2 pin of the CH32V003 processor. Additionally, the VCC pin of the servo motor is connected to the appropriate voltage supply pin (VCC) on the processor, while the GND pin of the motor is connected to the ground pin (GND) of the processor. This setup allows the CH32V003 processor to send PWM signals to the servo motor via the D2 pin, thereby controlling its rotation and enabling the automated opening and closing of the door.
-
-# Pinout Diagram for Smart Door :
-
-
+In this circuit setup, the VSD Squadron Mini controls the servo motor using the PC6 pin for the servo signal, while the motor’s power is supplied through 5V for VCC and grounded via GND. The Bluetooth module communicates with the microcontroller through its PD6 pin for RXD and PD7 for TXD, with PD7 connected to a 5V logic level. The Bluetooth module is powered by the 3.3V pin, which is connected to the microcontroller’s 3.3V output, and grounded via the GND pin. The PC7 pin from the microcontroller is used to monitor the Bluetooth State pin, which indicates the connection status of the Bluetooth module. Lastly, the LED_BUILTIN onboard LED is used for status indication, providing visual feedback on the system’s state.
 
 # Table for Pin connection :
 
+![Screenshot 2024-11-16 163056](https://github.com/user-attachments/assets/7391e659-fd79-4bd6-899d-05c52be0e69e)
+
+# Pinout Diagram for Bluetooth Automated Smart Access :
+
+![image](https://github.com/user-attachments/assets/2966ee17-8251-4750-9ca6-b5e6924cf9eb)
 
 
+# Working Code : 
 
 
 
