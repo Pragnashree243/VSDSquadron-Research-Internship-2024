@@ -370,27 +370,31 @@ To conclude : The output waveform for the list of instructions are obtained in G
 
 # TASK 5 :-
 
-# Smart Door Using IR Sensor and Servo Motor Using VSDSquadron Mini RISC-V Development Board 
+# Bluetooth Automated Smart Access Using VSDSquadron Mini RISC-V Development Board 
 
 # Project Overview :
 
-The Smart Door project presents an innovative integration of infrared (IR) sensing technology with the CH32V003 RISC-V processor to create an automated door system. This system operates by detecting the presence of objects within its range using an IR sensor, which then sends signals to the CH32V003 RISC-V processor. Upon receiving these signals, the processor activates a servo motor to rotate and subsequently open or close the door, providing seamless and efficient access control. By combining these technologies, the project aims to offer users a convenient, secure, and automated solution for door operation, eliminating the need for manual intervention.
+In an era where technology is intricately woven into the fabric of our everyday existence, the idea of a smart home has transitioned from science fiction to a practical reality. At the heart of this evolution is the “Bluetooth Automated Smart Access” system, a perfect fusion of ease, security, and cutting-edge technology. By harnessing the power and capabilities of a VSD Squadron Mini board, a Bluetooth module, and a servo motor, this innovation offers functional solutions to common challenges, redefining how we engage with and control our home environments.
 
-# Components Required to build Smart Door :
+Bluetooth automated smart access can be utilized in a wide range of applications, from controlling water taps to managing lighting and appliances, smart door and security applications and for enhancing efficiency and simplifying everyday tasks across diverse environments.
 
-1.) CH32V003X
+This project presents a groundbreaking solution for controlling and monitoring door access, utilizing a combination of a servo motor, Bluetooth module, push-button, and onboard LED. The core functionality of the system revolves around its ability to respond to Bluetooth commands, which activate a precise open-close mechanism. Upon receiving a signal, the Bluetooth module prompts the VSD Squadron Mini to engage the servo motor, triggering the door’s movement. By integrating this technology, the system offers a seamless, hands-free experience that enhances both security and convenience, making access control simpler and more efficient.
 
-2.) IR sensor
+With the ability to be controlled directly from a smartphone via Bluetooth, this system offers intuitive and convenient access management. The onboard LED serves as a visual indicator, ensuring users receive clear feedback on the system’s status. This project highlights the powerful role of IoT technology in revolutionizing home security and automation, providing a seamless blend of efficiency and ease of use.
+
+# Components Required for the project :
+
+1.) VSD Squadron Mini RISC-V board
+
+2.) Bluetooth HC-05 Module
 
 3.) Servo Motors (SG90)
 
-4.) Power Supply
+4.) Micro USB Cable
 
-5.) Bread Board
+5.) Jumper Wires
 
-6.) Jumper Wires
-
-The CH32V003 RISC-V processor, employed in the smart door project, operates at voltages between 1.8V to 3.6V, featuring GPIO pins for interfacing with external devices and supporting communication protocols like SPI, I2C, and UART. The IR sensor utilized in the system typically operates at 3.3V or 5V, detecting infrared radiation emitted or reflected by objects within its range and converting it into electrical signals. The servo motor, integral to the project, operates within a voltage range of 4.8V to 6V and responds to PWM signals for position control, drawing current proportional to load and torque requirements. These electrical properties ensure compatibility and effective integration of components, facilitating the automated operation of the smart door system.
+THe VSD Squadron Mini RISC-V board is powered by CH32V003F4U6 chip with 32-bit RISC-V core based on RV32EC instruction set, optimized for high-performance computing with support for 2-level interrupt nesting and supports 24MHz system main frequency in the product function. Bluetooth HC-05 Module (Pins PD6, PD7, PC7, GND, 3.3V) enables wireless communication between the system and the user’s smartphone for remote control and the Bluetooth module’s State pin indicates connection status. Servo Motor (Pin PC6) acts as the locking mechanism, which is controlled by the microcontroller. The Onboard LED displays the system status, indicating the locked or unlocked states. The jumper wires are used to connect the different parts of a circuit. These wires help in easily linking the VSD Squadron Mini RISC-V board, Bluetooth HC-05 Module and the Servo Motor.
 
 # Circuit Connection for Smart Door :
 
@@ -400,15 +404,10 @@ Furthermore, the servo motor is connected to the CH32V003 processor as follows: 
 
 # Pinout Diagram for Smart Door :
 
-![Screenshot 2024-11-12 101302](https://github.com/user-attachments/assets/40446eaf-3dba-4b7e-b4fe-ae9b3e5e4b8c)
 
 
 # Table for Pin connection :
 
-![Screenshot 2024-11-12 084757](https://github.com/user-attachments/assets/79ba764e-2843-4862-abf0-d11230e81084)
-
-
-![Screenshot 2024-11-12 090001](https://github.com/user-attachments/assets/e8789d7a-f966-4a43-83c4-8a77b6359ae6)
 
 
 
