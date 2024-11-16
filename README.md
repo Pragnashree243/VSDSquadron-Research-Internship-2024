@@ -13,11 +13,11 @@ GitHub link - https://github.com/Pragnashree243/VSDSquadron-Research-Internship-
 # Installation of RISC-V toolchain using VDI. Uploading the snapshot of compiled C code and RISC-V Objdmp.
 
 # Installation:
-- Oracle Virtual machine.
+A. Oracle Virtual machine.
   
 ![image](https://github.com/user-attachments/assets/21cb7746-e6fc-4363-8fbb-34f04ed8928f)
 
-- Gedit editor.
+B. Gedit editor.
 
 ![image](https://github.com/user-attachments/assets/adab033c-001e-4c47-9888-78349677231a)
 
