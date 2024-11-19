@@ -408,15 +408,32 @@ In this circuit setup, the VSD Squadron Mini controls the servo motor using the 
 
 ![image](https://github.com/user-attachments/assets/2966ee17-8251-4750-9ca6-b5e6924cf9eb)
 
-
 # Working Code : 
 
+![Screenshot 2024-11-19 135135](https://github.com/user-attachments/assets/e780555b-9ab8-4a7d-a49a-fce5398d5871)
+
+![Screenshot 2024-11-19 135203](https://github.com/user-attachments/assets/0c875f9f-9498-4bd8-904b-06cbd7f2705d)
+
+![Screenshot 2024-11-19 135235](https://github.com/user-attachments/assets/bb90359b-eb86-4e91-91d3-9d888607180b)
+
+![Screenshot 2024-11-19 135251](https://github.com/user-attachments/assets/24553766-3635-4648-965e-3d9fc30ed8c9)
+
+# Project Image :
+
+![Screenshot 2024-11-19 221519](https://github.com/user-attachments/assets/41ddcd5f-8a82-42d7-8543-fb5b075df270)
+
+# Project Video :
 
 
 
+# Conclusion :
 
+This project demonstrates the integration of Bluetooth HC-05 Module with the VSDSquadron RISC-V MIni board to control the smart doors and alert the user through the onboard LED indicator. 
+This setup showcases how the RISC-V architecture and embedded systems handle real-world home security making the system user-friendly and reliable.
 
+# ACKNOWLEDGEMENT
 
+I would like to express my sincere gratitude to VLSI System Design for providing me with the opportunity to intern with them. I would also like to express my special thanks to my mentor Mr.Kunal Ghosh for guiding and supporting and clearing any doubts that I had throughout this internship. This internship has been an invaluable experience, allowing me to learn deeply about the VSD Squadron RISC-V Mini Board and significantly strengthened my understanding of ARM (Advanced Risc Machine) course that I had learnt in my 4th semester of engineering. I was able to apply what I had learnt in the classroom to the tasks that we were assigned, along with learning many new concepts on digital chip design by delving deep into Embedded systems, RISC-V architecture and VLSI design under the guidance of dedicated mentors.
 
-
+I am thankful for the support and knowledge imparted to me during this journey. I look forward to applying the lessons learned here in my continued pursuit of excellence in engineering.
 
