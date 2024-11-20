@@ -408,6 +408,10 @@ In this circuit setup, the VSD Squadron Mini controls the servo motor using the 
 
 ![image](https://github.com/user-attachments/assets/2966ee17-8251-4750-9ca6-b5e6924cf9eb)
 
+# TASK 6 :-
+
+# Demonstration Of Project :
+
 # Working Code : 
 
 ![Screenshot 2024-11-19 135135](https://github.com/user-attachments/assets/e780555b-9ab8-4a7d-a49a-fce5398d5871)
