@@ -424,7 +424,7 @@ In this circuit setup, the VSD Squadron Mini controls the servo motor using the 
 
 # Project Video :
 
-
+https://drive.google.com/file/d/1qGuSV-Rf6FaNDQuBi1085Og8bacgfmGA/view?usp=drivesdk
 
 # Conclusion :
 
