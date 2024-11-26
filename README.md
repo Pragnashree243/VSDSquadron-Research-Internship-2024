@@ -78,8 +78,6 @@ B. Gedit editor.
 ![WhatsApp Image 2024-10-29 at 14 00 56_33507c4b](https://github.com/user-attachments/assets/d9d4f619-e706-4705-9bf1-3dc4ee1dbd93)
 
 
-# B. Write a simple C program for any simple application and compile with RISC-V GCC/SPIKE.
-
 
 # TASK 3:-
 
